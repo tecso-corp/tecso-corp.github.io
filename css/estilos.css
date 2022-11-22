@@ -10,6 +10,7 @@ nav{
     background: hsl(0, 0%, 100%);
     height: 80px;
     width: 100%;
+    padding: 40pxs;
 }
 .enlace{
     position: absolute;
@@ -123,6 +124,7 @@ body{
     background-attachment: fixed;
     position: relative;
     overflow: hidden;
+    padding: 35px;
 }
 
 .textos-hero{
@@ -132,6 +134,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 35px;
 }
 
 .textos-hero h1{
@@ -259,13 +262,98 @@ body{
 .card i{
     margin: 30px 0 20px 0;
     color: #5769f5;
-    font-size: 50px;
+    font-size: 5px;
 }
 
 .card p{
     font-weight: 300;
     font-size: 25px;
     margin-bottom: 10px;
+}
+
+
+@media(max-width: 1030px){
+    p{
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+    
+}
+
+@media(max-width: 760px){
+    p{
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 10px;
+    }
+    
+}
+
+@media(max-width: 580px){
+    p{
+    font-weight: 300;
+    font-size: 11px;
+    margin-bottom: 10px;
+    }
+    
+}
+@media(max-width: 460px){
+    p{
+    font-weight: 300;
+    font-size: 9px;
+    margin-bottom: 10px;
+    }
+    
+}
+@media(max-width: 395px){
+    p{
+    font-weight: 300;
+    font-size: 8px;
+    margin-bottom: 10px;
+    }
+    
+}
+
+@media(max-width: 800px){
+    .card p{
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+    .content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+    .cardito {
+    width: 32%;
+    text-align: center;
+    height: 230px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    }
+
+    .card {
+    width: 35%;
+    text-align: center;
+    height: 170px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    }  
+
+    .cta{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #5769f5 100%, #fad0c4 0%, #fad0c4 0%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+    }
 }
 
 /* galeria */
@@ -283,7 +371,7 @@ body{
 }
 
 .galeria-cont>img{
-    width: 30%;
+    width: 33%;
     object-fit: cover;
     margin-bottom: 20px;
     display: block;
@@ -292,6 +380,7 @@ body{
     overflow: hidden;
 }
 
+
 /* info2 */
 
 .last-section{
@@ -299,10 +388,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 40px;
-}
-
-.last-section img{
-    width: 35%;
 }
 
 .last-section .contenedor-textos-main{
@@ -416,31 +501,5 @@ input[type="submit"]:hover{
     .last-section .contenedor-textos-main{
         width: 98%;
         margin-bottom: 20px;
-    }
-
-
-}
-
-@media screen and (max-width:400px){
-    .titulo,
-    .textos-hero h1{
-        font-size: 30px;
-    }
-
-    .textos-hero p{
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .card{
-        height: 380px;
-    }
-
-    .website .contenedor-textos-main{
-        margin-bottom: 30px;
-    }
-
-    .galeria-cont>img{
-        width: 97%;
     }
 }
