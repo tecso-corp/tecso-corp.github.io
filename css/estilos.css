@@ -445,6 +445,208 @@ input[type="submit"]:hover{
     color: #5769f5;
     background: #fff;
 }
+.video1>iframe{
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.video2>iframe{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 512px;
+    top: -304px;
+}
+
+@media screen and (max-width:1111px){
+    .video1>iframe{
+    width: 420px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    }
+    .video2>iframe{
+    width: 420px;
+    height: 300px;
+    position: relative;
+    left: 450px;
+    }
+}
+
+@media screen and (max-width:970px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 450px;
+    top: -254px;
+    }
+}
+
+@media screen and (max-width:890px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 250px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    }
+}
+
+@media screen and (max-width:780px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 120px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 120px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 100px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 90px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+    }
+}
+
+@media screen and (max-width:560px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 70px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    }
+}
+
+@media screen and (max-width:530px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 60px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 45px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 45px;
+    }
+}
+
+@media screen and (max-width:470px){
+    .video1>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+    }
+    .video2>iframe{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    }
+}
+
+@media screen and (max-width:415px){
+    .video1>iframe{
+    width: 320px;
+    height: 220px;
+    position: relative;
+    left: 20px;
+    }
+    .video2>iframe{
+    width: 320px;
+    height: 220px;
+    position: relative; 
+    left: 20px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .video1>iframe{
+    width: 320px;
+    height: 220px;
+    position: relative;
+    left: 10px;
+    }
+    .video2>iframe{
+    width: 320px;
+    height: 220px;
+    position: relative; 
+    left: 10px;
+    }
+}
 
 @media screen and (max-width:800px){
     .textos-hero h1{
